@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Make sure to add your GitHub username/org and repository name
-                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'main', url: 'https://github.com/tanp4577-web/-Parallel-Stages-Pipeline.git'
             }
         }
         stage('Parallel Checks') {
